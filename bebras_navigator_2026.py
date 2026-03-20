@@ -5,6 +5,8 @@ if temp < 10:
 else:
     print('no coat needed')
 
+# marks: 4/4
+
 # question 2
 n = int(input())
 if n < 0:
@@ -14,11 +16,15 @@ elif n > 0:
 else:
     print('zero')
 
+# marks: 4/4
+
 # question 3
 n = int(input())
 for i in range(n, 0, -1):
     print(i)
 print(0)
+
+# marks: 4/4
 
 # question 4
 p = input()
@@ -31,6 +37,8 @@ if p == 'letmein':
 elif attempts == 3:
     print('access denied')
 
+# marks: 4/4
+
 # question 5
 fname = input().lower()
 lname = input().lower()
@@ -39,6 +47,8 @@ year = input()
 username = fname[0] + lname + year[2:]
 print(username)
 
+# marks: 4/4
+
 # question 6
 s = input().split()
 count = 0
@@ -46,6 +56,8 @@ for word in s:
     if len(word) >= 4:
         count += 1
 print(count)
+
+# marks: 4/4
 
 # question 7
 text = input()
@@ -57,6 +69,8 @@ for c in text:
 
 print(padlock)
 
+# marks: 4/4
+
 # question 8
 n1 = int(input())
 n2 = int(input())
@@ -67,6 +81,8 @@ for i in range(n1, n2+1):
         sum += i
 
 print(sum)
+
+# marks: 8/8
 
 # question 9
 code = input()
@@ -84,6 +100,8 @@ if len(code) == 6:
 else:
     print('invalid')
 
+# marks: 8/8
+
 # question 10
 nums = input().split()
 n_nums = len(nums)
@@ -93,3 +111,7 @@ else:
     avg1 = nums[int(n_nums / 2)] 
     avg2 = nums[int((n_nums / 2) - 1)] 
     print(int((int(avg1) + int(avg2)) / 2))
+
+# marks: 8/8
+
+# total marks: 52/52
