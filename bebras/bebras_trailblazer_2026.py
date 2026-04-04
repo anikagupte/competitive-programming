@@ -59,7 +59,7 @@ while not finished and n!= 1:
 
 print(count)
 
-# score: 3/4
+# marks: 3/4
 
 # question 6
 def encrypt(word):
@@ -114,7 +114,7 @@ for n in diffs:
 highest += 1
 print(highest)
 
-# score: 4/8
+# marks: 4/8
 
 # question 9
 k = int(input())
